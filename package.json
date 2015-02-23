@@ -1,0 +1,25 @@
+{
+  "name": "firebase-auto-ids",
+  "version": "1.0.0",
+  "description": "Generate random time-based IDs like Firebase",
+  "main": "./src",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bendrucker/firebase-auto-ids.git"
+  },
+  "keywords": [
+    "firebase",
+    "id",
+    "auto",
+    "timestamp"
+  ],
+  "author": "Ben Drucker <bvdrucker@gmail.com> (http://www.bendrucker.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bendrucker/firebase-auto-ids/issues"
+  },
+  "homepage": "https://github.com/bendrucker/firebase-auto-ids"
+}
