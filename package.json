@@ -1,6 +1,6 @@
 {
   "name": "firebase-auto-ids",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Generate random time-based IDs like Firebase",
   "main": "./src",
   "scripts": {
