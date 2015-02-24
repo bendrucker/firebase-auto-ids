@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- iojs
+deploy:
+  provider: npm
+  email: bvdrucker@gmail.com
+  api_key:
+    secure: ZMA4yqfRPZyoZtemaJSshZxASYyBMnzHhVy/aj4MdPhFDxb0UG+Eh8COozv1QGYDEopI6rcurS+BJSCDVJkRPcG3OhV6xbR4e9qAl6r0MrB3FJJde7a3POXM24VJyaM7Fj8JLlFJV0KZWoVBG4oAJbaRXBPitOgx56iPX4iC1Qg=
+  on:
+    tags: true
+    all_branches: true
+    repo: bendrucker/firebase-auto-ids

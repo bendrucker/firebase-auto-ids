@@ -1,4 +1,4 @@
-# firebase-auto-ids
+# firebase-auto-ids [![Build Status](https://travis-ci.org/bendrucker/firebase-auto-ids.svg?branch=master)](https://travis-ci.org/bendrucker/firebase-auto-ids)
 
 Generate random time-based, collision-proof IDs a la [`Firebase.push`](https://www.firebase.com/docs/web/api/firebase/push.html). Designed for testing and education (readability), not performance.
 
