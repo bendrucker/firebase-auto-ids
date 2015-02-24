@@ -25,10 +25,10 @@ var generateIndexes = {
     }
   },
   sequential: function collisionSafeCharacterIndexes () {
-    for (var i = 11; i >= 0 && run.randomCharacters[i] === 63; i--) {
+    for (var i = 11; i >= 0 && run.randomCharacterIndexes[i] === 63; i--) {
       run.randomCharacters[i] = 0;
     }
-    run.randomCharactersIndexes[i]++;
+    run.randomCharacterIndexes[i]++;
   }
 };
 
