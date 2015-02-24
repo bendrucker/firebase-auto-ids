@@ -10,10 +10,20 @@ $ npm install firebase-auto-ids
 
 ## API
 
-##### `generateAutoId(now)` -> `String`
+##### `generate(now)` -> `String`
 
-firebase-auto-ids exports a single function. Pass in `now`, the current timestamp (e.g. `Date.now()`). `generateAutoId` returns an ID string. Like `Firebase.push`, IDs hold the following properties:
+firebase-auto-ids exports a function. Pass in `now`, the current timestamp (e.g. `Date.now()`). `generate` returns an ID string. Like `Firebase.push`, IDs hold the following properties:
 
 * `id1` < `id2` where `id1` was created at an earlier time (`now`) than `id2`
 * `id1` < `id2` where `id1` and `id2` were created at the same `now` but `generateAutoId` was executed for `id1` before `id2`
 * `id1` !== `id2` where `id1` and `id2` were created at the same `now` in different clients
+
+<hr>
+
+##### `new generate.Generator()` -> `generator`
+
+Creates a new `generator` instance. Individual instances do not share state. This means that IDs created at the same time in a given runtime will no longer be determined by call order. 
+
+##### `generator.generate(now)` -> `String`
+
+Same as [`generate(now)`](#generatenow---string)
