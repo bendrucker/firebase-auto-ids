@@ -1,11 +1,11 @@
-'use strict';
+'use strict'
 
-var IdGenerator = require('./generator');
-var generator;
+var IdGenerator = require('./generator')
+var generator
 
 exports = module.exports = function generateAutoId (now) {
   if (!generator) generator = new IdGenerator()
-  return generator.generate(now);
-};
+  return generator.generate(now)
+}
 
-exports.Generator = IdGenerator;
+exports.Generator = IdGenerator
