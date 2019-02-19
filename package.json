@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/bendrucker/firebase-auto-ids",
   "devDependencies": {
-    "sinon": "~7.1.1",
+    "sinon": "~7.2.4",
     "tape": "~4.10.0"
   }
 }
