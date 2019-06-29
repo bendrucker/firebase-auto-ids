@@ -24,6 +24,6 @@
   "homepage": "https://github.com/bendrucker/firebase-auto-ids",
   "devDependencies": {
     "sinon": "~7.3.0",
-    "tape": "~4.10.0"
+    "tape": "~4.11.0"
   }
 }
